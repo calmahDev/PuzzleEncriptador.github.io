@@ -1,0 +1,89 @@
+#Principal{
+    background-color: #F3F5FC;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 2vh;
+
+}
+#textarea{
+    font-family: Inter;
+    border-radius: 1vh;
+    color:  #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+
+}
+
+#textarea::-webkit-scrollbar{
+    width: 0px;
+}
+
+#Resultado{
+    font-family: Inter;
+    border-radius: 1vh;
+    padding: 2vh;
+    color: #495057; 
+    border: none;
+}
+#Resultado::-webkit-scrollbar{
+    width: 0px;
+}
+
+#Advertencia{
+    font-family: Inter;
+    text-align: left;
+    color: #495057;
+    position: absolute ;
+}
+
+#messageNotFound{
+    font-family: Inter;
+    color:#343A40;
+}
+
+#instruction{
+    font-family: Inter;
+    color: #343A40;
+}
+
+#SalidaTexto{
+    background-color: #FFFF;
+    border-radius: 3vh;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    border-radius: 3vh; 
+    font-family: Inter;
+}
+
+
+#BtnEncriptar {
+    border-color:#FFFF;
+    background-color: #0A3871;
+    color: #FFFF;
+}
+
+#BtnDesencriptar{
+    border-color:#0A3871;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#BtnCopiar{
+    border-color:#0A3871;
+    background-color: #fff;
+    color: #0A3871;
+}
+
+.Botones{
+    display: flex;
+    justify-content: center;
+}
+#Footer{
+    text-align: center;
+}

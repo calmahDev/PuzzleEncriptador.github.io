@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="stylesheet" href="./Views.css">
+    <title>Encryption - Challenge ONE</title>
+</head>
+<body>
+    
+    <div id="Principal">
+        <div id="Logo">
+            <img src="./img/Logo.png" alt="Logo" id="Logo">
+        </div>
+        
+        <div id="EntradaTexto">
+            
+            <textarea id="textarea" rows="10" cols="50" placeholder="Pega o escribe AQUI"></textarea>            
+            
+            <div id="Advertencia">
+                <img src="./img/Vector.png" alt="Alerta">
+                Solo letras minúsculas y sin acentos
+            </div>
+            
+            <div class="Botones">
+                <button id="BtnEncriptar" > Encriptar</button>
+                <button id="BtnDesencriptar" > Desencriptar</button>
+            </div>
+        </div>
+
+        <div id="SalidaTexto">
+
+            <div id="infoArea">
+                <img id="Muneco" src="./img/Muñeco.png" alt="Muñeco">
+                <div id="messageNotFound">Ningún mensaje fue encontrado</div>
+                <div id="instruction">Ingresa el texto que deseas encriptar o desencriptar</div>
+            </div>
+
+            <div id = "Encriptar">
+                <textarea  id="Resultado" cols="30" rows="10"></textarea>
+               <!-- <input type="text" id="Resultado"> -->
+                <div class="Botones">
+                    <button id="BtnCopiar">Copiar</button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <hr>
+    <div id="Footer">
+        Copyright © 2024 CalMah. <br>
+        All Rights Reserved <br>
+        <a href="https://www.CalMah.tech/">CalMah.tech</a>. <br>
+        Caled Mahatma contreras Ramos <br>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+</html>
